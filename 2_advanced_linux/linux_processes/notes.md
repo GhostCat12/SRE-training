@@ -1,0 +1,59 @@
+- `System()`  
+- `fork()` 
+- `exec()`
+- `pidof`
+- `echo $$`
+- `echo PPID`
+- `ls o*.png`
+- `bg`
+- `fg`
+- `nohup <command> &`
+- `<command>&`
+- `nice -n 5 <command>`
+- `renice priority -p <process id>`
+- `smit renice`
+- `ps`
+  - `ps -f`
+  -  `ps -ef | grep <process>`
+  - `ps aux`
+  - `ps aux –-sort pmem | head -5`
+  - `ps aux –-sort -pmem | head -5`
+  -  `ps -axjf`
+  -  `ps -C a.out`  
+- `top`
+  - `K`  - Kills a process
+  - `M` - Sorts the list by memory usage
+  - `N` - Sorts the list by PID
+  - `r` - Changes the priority of a process
+  - `h` - Displays the help window
+  - `z` - Displays running processes in colours
+  - `d` - Changes the refresh time interval
+  - `c` - Displays the absolute path of a process
+  - `CTRL+C` or `q` - Stops the top command
+
+- `htop`
+  - `F9` Kills a process
+  - `F8` Increase the priority of s process)
+  - `F7` Decrease the priority of a process
+  - `F6` Sort processes by any column
+  - `F5` Display processes in a tree view
+  - `F4` Filter the processes by name
+  - `F3` Search for a process
+  - `F2` Open htop setup
+  - `F1` Display the help menu
+  
+- `kill -9 <process ID>`
+- `SIGINT (ctrl + c)`
+- `SIGQUIT`
+- `stty -a | grep intr `
+  - `Intr: ^C` 
+  - `quit: ^\` 
+  - `erase: ^?` 
+  - `kill: ^U` 
+  - `eof: ^D`
+  - `eol: M-^?` 
+  - `eol2: M-^?`
+- `who | wc -l`
+- `passwd`  
+
+  
