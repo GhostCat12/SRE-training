@@ -25,3 +25,19 @@ Site Reliability Engineer training by WileyEdge / Mthree
 
 
 ## Advanced Linux 
+
+TODO1: 
+  - Basic commands - upload activity_basic_commands
+TODO2:
+   - Upload activity_using_vi.md part 2
+   - Upload ./fixGenerator.sh, before and after files for both parts
+TODO3: 
+  - linux_processes notes.md, fill out descriptions for commands and add key points section
+TODO4:
+  - Complete and upload activity_fix_log_analysis
+
+Long-term TODO: 
+add screenshots throughout 
+
+
+
