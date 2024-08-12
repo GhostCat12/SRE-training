@@ -1,0 +1,636 @@
+    1  mkdirmy_first_directory
+    2  mkdir my_first_directory
+    3  cd my_first_directory/
+    4  touch my_first_file
+    5  cat >> sre1
+    6  cat sre1
+    7  git --version
+    8  sudo apt install git
+    9  cd ~
+   10  touch linux_bash_cli_list.txt
+   11  touch myeditfile
+   12  vi myeditfile
+   13  ls
+   14  vi myeditfile
+   15  cat myeditfile
+   16  vi myeditfile
+   17  vi myeditfile 
+   18  touch editfile2
+   19  ll
+   20  chmod 777 editfile2
+   21  vi editfile2 
+   22  s myfile
+   23  ls myfile
+   24  touch myfile
+   25  ls myfile
+   26  echo add something in here >myfile
+   27  echo add something in here onsecond line >>myfile
+   28  cat myfile
+   29  bc <<<4.5
+   30  bc <<<4*5
+   31  pws
+   32  pwd
+   33  ls
+   34  cd Documents/
+   35  ls
+   36  cd pss-orderbook-deploy-main/
+   37  ls
+   38  cd src
+   39  ls
+   40  cd linux_activities/
+   41  ls
+   42  cd Activity
+   43  cd Activity2
+   44  ls
+   45  cat stock_investments.txt 
+   46  head -5 stock_investments.txt 
+   47  tail -5 stock_investments.txt 
+   48  grep GOOG stock_investments.txt 
+   49  grep GOOG stock_investments.txt | wc -l
+   50  grep T stock_investments.txt | wc -l
+   51  grep T stock_investments.txt
+   52  grep -wc T stock_investments.txt 
+   53  grep spy
+   54  grep spy stock_investments.txt 
+   55  grep -lr spy stock_investments.txt 
+   56  grep -li spy stock_investments.txt 
+   57  grep -lir spy stock_investments.txt 
+   58  grep -lir spy
+   59  grep S[Y
+   60  grep SPY
+   61  grep SPY .
+   62  grep -lir spy .
+   63  grep lvri spy .
+   64  grep -lvri spy .
+   65  grep SPY stock_investments.txt 
+   66  find . -type f -name *data*
+   67  find . -type f -name *data* -exec chmod 744 {} \;
+   68  grep WFC
+   69  grep WFC .
+   70  chmod -w WFC/data.txt
+   71  pwd
+   72  cd ..
+   73  pwd
+   74  ls
+   75  cd Activity6
+   76  ls
+   77  cat stock
+   78  cat stock_sample.csv 
+   79  sudo apt install csvtool
+   80  csvtool --version
+   81  ls
+   82  csvtool readable stock_sample.csv
+   83  cat stock2022_09_28.csv 
+   84  clear
+   85  csvtool readable stock_sample.csv 
+   86  ls
+   87  grep GDX stock2022_09_28.csv 
+   88  cp stock_sample.csv 
+   89  vi stock_sample.csv 
+   90  ls
+   91  csvtool readable stock_sample.csv 
+   92  grep GE stock2022_09_28.csv 
+   93  clear
+   94  ls
+   95  stock_
+   96  cat stock_sample.csv 
+   97  clear
+   98  ls
+   99  csvtool readable stock_sample.csv 
+  100  grep GeneralElectric Company stock2022_09_28.csv 
+  101  grep "GeneralElectric Company" stock2022_09_28.csv 
+  102  grep "General Electric Company" stock2022_09_28.csv 
+  103  vi stock_sample.csv 
+  104  csvtool readable stock_sample.csv 
+  105  sudo yum install nginx
+  106  sudo apt install nginx
+  107  systemct1 status nginx
+  108  ps
+  109  top
+  110  strace -p 23
+  111  sudo su
+  112  sudo apt update
+  113  sudo apt-get update
+  114  sudo apt-get install vim
+  115  cd /
+  116  ls
+  117  cd dev
+  118  ls
+  119  cd cdrom
+  120  cd /
+  121  cd dev
+  122  ls
+  123  cd /
+  124  cd etc
+  125  ls
+  126  cd passwd
+  127  cd passwd-
+  128  cd /
+  129  cd usr
+  130  ls
+  131  cd /
+  132  vmlinuz
+  133  cd vmlinuz
+  134  vim --version
+  135  cd ~
+  136  vim --version
+  137  vim
+  138  ls
+  139  vim
+  140  ls
+  141  mkdir advanced_linux
+  142  cd advanced_linux/
+  143  mkdir using_vi
+  144  cd using_vi/
+  145  vi avengers
+  146  wc avengers
+  147  ls
+  148  nano activity_using_vi_part_2_log_files.txt
+  149  cd ~
+  150  cd advanced_linux/using_vi/
+  151  nano commands_run.txt
+  152  ls
+  153  vi avengers
+  154  wc -l avengers
+  155  vim avengers
+  156  mv avengers avengers.maryamhashmi.txt
+  157  ls
+  158  cd ~
+  159  ls
+  160  ./fixgenerator.sh &
+  161  ./fixGenerator.sh &
+  162  ls
+  163  ls -a
+  164  ls
+  165  ./fixGenerator.sh &
+  166  chmod +x fixGenerator.sh 
+  167  ./fixGenerator.sh &
+  168  ls
+  169  grep '35=D'fixlog20240806153437.log > newOrders.log
+  170  ls
+  171  vi newOrders.log 
+  172  grep '35=D' fixlog20240806153437.log > newOrders.log
+  173  vi newOrders.log
+  174  vim newOrders.log 
+  175  mv newOrders.log newOrders.maryamHashmi.log
+  176  history
+  177  history
+  178  cd ~
+  179  cd ~
+  180  cd advanced_linux/using_vi/
+  181  wc avengers
+  182  ls
+  183  nano commands_run.txt 
+  184  ls
+  185  git clone https://github.com/GhostCat12/SRE-training.git
+  186  cd SRE-training
+  187  touch .gitignore
+  188  git add .
+  189  git status
+  190  nano .gitignore
+  191  git unstage
+  192  git add
+  193  git add .
+  194  git reset
+  195  git status
+  196  git add .
+  197  git commit -m "Adds git ignore file"
+  198  git config --global user.email "maryam.hashmi@hotmail.co.uk"
+  199  git config --global user.name "MHashmi"
+  200  git config
+  201  git commit -m "Adds git ignore file"
+  202  git push
+  203  git remote -v
+  204  git remote set-url origin git@github.com:GhostCat12/SRE-training.git
+  205  git remote -v
+  206  ps
+  207  httpd
+  208  sudo install httpd
+  209  ll | grep init 
+  210  cd ~
+  211  ll | grep init 
+  212  cd ../..
+  213  cd .
+  214  cd /
+  215  ll | grep init 
+  216  /etc
+  217  ls
+  218  pidof nginx
+  219  ppidof nginx
+  220  ps -eaf
+  221  ps -aux
+  222  history
+  223  a.out &
+  224  echo $$
+  225  echo $PPID
+  226  a.out &
+  227  sudo au
+  228  a.out &
+  229  clear
+  230  bash
+  231  a.out &
+  232  pidof top
+  233  ls o*.png
+  234  find .png
+  235  find *.png
+  236  ls O*.png &
+  237  sleep 100
+  238  bg
+  239  fg
+  240  ps -ef
+  241  ps -ef |grep sleep
+  242  fg
+  243  nohup sleep 100 &
+  244  sleep 100&
+  245  nice -n 5 sleep 100
+  246  top
+  247  htop
+  248  sudo apt htop
+  249  sudo apt install htop
+  250  htop
+  251  ps -aux
+  252  ps -aux | grep bash
+  253  ps aux -pid |head-5
+  254  ps -aux -pid |head-5
+  255  ps -aux -pid |head -5
+  256  ps aux -pid |head -5
+  257  ps -aux --pid |head -5
+  258  ps aux | head -5
+  259  ps aux --sort pid | head -5
+  260  ps aux --sort -pid | head -5
+  261  ps -axjf
+  262  ps aux --sort -pmem | head -5 
+  263  ps aux --sort pmem | head -5 
+  264  ps -axjf
+  265  ps nginx
+  266  pidof nginx
+  267  top -M
+  268  top
+  269  HTOP
+  270  htop
+  271  history 
+  272  git push
+  273  ls
+  274  cd SRE-training/
+  275  git push
+  276  ssh-keygen -t rsa -b 4096 -C "maryam.hashmi@hotmail.co.uk"
+  277  cat ~/.ssh/id_rsa.pub
+  278  git remote -v
+  279  git push
+  280  ls
+  281  ls -a
+  282  git pull
+  283  git status
+  284  ps
+  285  ps aux
+  286  clear
+  287  cat /proc/meminfo
+  288  cat /proc/meminfo
+  289  free --mega -h
+  290  cat -5 /proc/meminfo
+  291  watch "free-bytes"
+  292  vmstat 1
+  293  clear
+  294  ps aux --sort -rss
+  295  ps aux --sort -%mem
+  296  ps -eo user,pid,%mem,stat,cmd --sort=-%mem
+  297  ps aux --sort -%cpu
+  298  ps aux --forest
+  299  watch 'ps aux --sort -%mem | head'
+  300  top
+  301  vmstat 1
+  302  clear
+  303  git pull
+  304  git add .
+  305  ls
+  306  cd 2_advanced_linux/
+  307  ls
+  308  cd network/
+  309  git add .
+  310  git status
+  311  git commit -m "Adds screenshots of network activity command outputs"
+  312  git push
+  313  git add .
+  314  git status
+  315  PS
+  316  ps
+  317  ps -f
+  318  ps 33416
+  319  who | wc -l
+  320  sudo adduser testuser
+  321  sudo usermod -a -G testuser testuser
+  322  sudo groupadd testgroup
+  323  sudo usermod -a -G testgroup testuser
+  324  groups testuser
+  325  finger
+  326  apt install finger
+  327  sudo apt install finger
+  328  finger
+  329  sudo deluser testuser testgroup
+  330  sudo groupadd testgroup
+  331  sudo usermod -a -G testgroup testuser
+  332  cat /etc/group
+  333  cat /etc/group | grep "test"
+  334  finger
+  335  finger testuser
+  336  sudo passwd -l testuser
+  337  sudo userdel -r testuser
+  338  history
+  339  ls
+  340  cd SRE-training/
+  341  ls
+  342  cd 2_advanced_linux/
+  343  ls
+  344  cd network
+  345  dd if=/dev/urandom of=8kb_file bs=1K count=8
+  346  stat 8kb_file
+  347  df -i
+  348  ping 8.8.8.8
+  349  ping -c 4 8.8.8.8
+  350  nslookup example.com
+  351  nslookup 8.8.8.8
+  352  traceroute example.com
+  353  dig example.com
+  354  dig example.com A
+  355  dig MX
+  356  dig -x 8.8.8.8
+  357  curl https://example.com
+  358  sudo apt install curl
+  359  curl https://example.com
+  360  curl -o index.html https://example.com
+  361  curl -L -o redirected.html https://example.com
+  362  curl -X POST -d 'username=user&password=pass' https://example.com/
+  363  login -f
+  364  curl -H "Authorization: Bearer token" https://api.example.com/data
+  365  curl -b "cookie1=value1; cookie2=value2" https://example.com
+  366  sudo lsof -i -P # sudo is likely needed
+  367  netstat -c
+  368  clear
+  369  netstat -c
+  370  clear
+  371  sudo dnf search stress
+  372  sudo apt update
+  373  sudo apt upgrade
+  374  sudo apt install stress
+  375  free --mega
+  376  free --mega | awk 'NR==2 {print $4}'
+  377  free --mega | awk 'NR==2 {print $4}' > free_mega_before_stress
+  378  history
+  379  stress --vm 1 --vm-bytes 512M --vm-keep -t 300s &
+  380  free --mega
+  381  bg
+  382  fg
+  383  stress --vm1 --vm-bytes 512M --vm-keep -t 300s &
+  384  stress --vm 1 --vm-bytes 512M --vm-keep -t 300s &
+  385  free --mega
+  386  free --mega | awk 'NR==2 {print $4}' > free_mega_during_stress
+  387  ps -eo pid,%mem,%cpu,cmd --sort=-%mem | head -n 6 
+  388  bc <<< "$(cat free_mega_before_stress) - $(cat free_mega_during_stress)"
+  389  ls
+  390  rm free_mega_during_stress 
+  391  cd SRE-training/network/
+  392  cd SRE-training/
+  393  ls
+  394  cd 2_advanced_linux/
+  395  ls
+  396  cd network
+  397  stress --vm 1 --vm-bytes 512M --vm-keep -t 300s &
+  398  free --mega
+  399  free --mega | awk 'NR==2 {print $4}' > free_mega_during_stress
+  400  ps -eo pid,%mem,%cpu,cmd --sort=-%mem | head -n 6 
+  401  bc <<< "$(cat free_mega_before_stress) - $(cat free_mega_during_stress)
+  402  bc <<< "$(cat free_mega_before_stress) - $(cat free_mega_during_stress)
+  403  ls
+  404  cat free_mega_before_stress 
+  405  cat free_mega_during_stress 
+  406  bc <<< "$(cat free_mega_before_stress) - $(cat free_mega_during_stress)"
+  407  git status
+  408  git add .
+  409  git commit -m "Adds images and files for network and sys admin activity - complete"
+  410  git push
+  411  git pull
+  412  cd ../..
+  413  git add .
+  414  git status
+  415  git commit -m "Adds user management images"
+  416  git push
+  417  logger whoami
+  418  logger 'whoami'
+  419  cd /
+  420  cd etc/
+  421  cd /
+  422  cd /etc/sysconfig/selinux
+  423  cd etc/sysconfig
+  424  cd
+  425  cd etc
+  426  cd /
+  427  cd etc/
+  428  cd selinux
+  429  cd /
+  430  clear
+  431  cd /etc/selinux/
+  432  sudo iptables -L
+  433  iptables -F
+  434  sudo iptables -F
+  435  iptables -P FORWARD DROP
+  436  iPtables -L
+  437  sudo iptables -L
+  438  sudo iptables -P FORWARD DROP
+  439  sudo iptables -L
+  440  sudo firewall-cmd
+  441  apt install firewall-cmd
+  442  sudo apt install firewall-cmd
+  443  sudo firewall-cmd --add-service-http
+  444  sudo apt-get firewall-cmd
+  445  sudo apt install firewall-cmd
+  446  sudo apt install firewalld
+  447  sudo firewall-cmd --zone-public --permanent --list-ports
+  448  sudo firewall-cmd --zone=public --permanent --list-ports
+  449  cd /
+  450  cd /var/log/
+  451  ls
+  452  sudo apt install rsyslog
+  453  ls
+  454  sudo apt autoremove
+  455  sudo apt update
+  456  sudo apt upgrade
+  457  ls -a
+  458  sudo systemctl start rsyslog
+  459  sudo systemctl enable rsyslog
+  460  sudo systemctl status rsyslog
+  461  whereis rsyslog
+  462  history
+  463  iptables -L
+  464  sudo iptables -L
+  465  sudo iptables -P FORWARD DROP
+  466  sudo iptables -L
+  467  sudo iptables -P FORWARD ACCEPT
+  468  sudo iptables -L
+  469  sudo firewall-cmd --zone=public --add-service-http
+  470  sudo firewall-cmd --zone=public --add-service=http
+  471  apt install rsyslog
+  472  sudo apt install rsyslog
+  473  systemctl status rsyslog
+  474  whereis rsyslog
+  475  cd /
+  476  cd usr/lib
+  477  ls | grep sys
+  478  history
+  479  cd /
+  480  ls
+  481  cat example_1.sh
+  482  ls
+  483  touch example_1.sh
+  484  vim example_1.sh
+  485  sh example_1.sh 
+  486  vi example_1.sh 
+  487  ./example.sh
+  488  ./example_1.sh
+  489  sudo ./example_1.sh
+  490  sh example_1.sh
+  491  chmod 777 example_1.sh 
+  492  ./example_1.sh
+  493  variable_script.sh
+  494  vim variable_script.sh
+  495  sh variable_script.sh 
+  496  ls
+  497  cd SRE-training/
+  498  ls
+  499  cd 2_advanced_linux/
+  500  ls
+  501  cd comm
+  502  cd command_line/
+  503  touch notes.md
+  504  git add .
+  505  git status
+  506  cd ../..
+  507  git add .
+  508  git status
+  509  git restore --staged 2_advanced_linux/command_line/notes.md
+  510  git status
+  511  git add .
+  512  git commit -m "Adds directory and notes files for advanced linux"
+  513  git push
+  514  git status
+  515  git pull
+  516  ls
+  517  cd 2_advanced_linux/
+  518  pwd
+  519  cd ~
+  520  cd /home/mhash/SRE-training/2_advanced_linux
+  521  cd ../..
+  522  cd ..\..
+  523  cd ../../
+  524  cd /home/mhash/SRE-training/2_advanced_linux
+  525  cd ../
+  526  cd /home/mhash/SRE-training/2_advanced_linux
+  527  cd ..
+  528  ls -d
+  529  ls
+  530  cd 2-
+  531  cd 2_advanced_linux/
+  532  cd -d
+  533  ls -d
+  534  ls -d */
+  535  ls -l
+  536  which vim
+  537  vim -v
+  538  vim --version
+  539  cd ~
+  540  ls
+  541  vim testfile
+  542  ls
+  543  cd SRE-training/
+  544  ls
+  545  cd 2_advanced_linux/
+  546  ls
+  547  cd ../../
+  548  cd SRE-training/
+  549  git pull
+  550  git push
+  551  cd 2_advanced_linux/vi_editor/
+  552  cd
+  553  ls
+  554  cd 2_advanced_linux/vi_editor/
+  555  ls
+  556  cd SRE-training/
+  557  cd 2_advanced_linux/
+  558  cd vi_editor/
+  559  ls
+  560  touch activity_using_vi
+  561  nano activity_using_vi 
+  562  ls
+  563  del activity_using_vi
+  564  rm activity_using_vi
+  565  ls
+  566  git status
+  567  git commit -m "Adds activity_using_vi.md file"
+  568  git push
+  569  git status
+  570  git add .
+  571  git status
+  572  git commit -m "Adds activity_using_vi.md file to advanced linux vi editor"
+  573  git push
+  574  git pull
+  575  nano activity_linux_advanced_commands
+  576  mv activity_linux_advanced_commands activity_linux_advanced_commands.md
+  577  ls
+  578  touch activity_linux_advanced_commands.md
+  579  ls
+  580  git pull
+  581  git add .
+  582  git status
+  583  git commit -m "Adds files for advanced linux activity"
+  584  git push
+  585  ./fixGenerator.sh &
+  586  lear
+  587  chmod -x fixGenerator.sh 
+  588  ./fixGenerator.sh &
+  589  ls
+  590  chmod +x fixGenerator.sh 
+  591  ./fixGenerator.sh &
+  592  ls
+  593  git pull
+  594  mkdir logs
+  595  cd ../
+  596  cd 2_advanced_linux/
+  597  ls
+  598  mv fixlog20240812105445.log logs/.
+  599  ls
+  600  cd logs/
+  601  cat fixlog20240812105445.log | sed 's/MTHREE/M3' > logs/fixlog2.log
+  602  cd ../
+  603  cat fixlog20240812105445.log | sed 's/MTHREE/M3' > logs/fixlog2.log
+  604  cd logs
+  605  cat fixlog20240812105445.log | sed 's/MTHREE/M3' > fixlog2.log
+  606  cat fixlog20240812105445.log | sed 's/MTHREE/M3/g' > fixlog2.log
+  607  ls
+  608  cat fixlog2
+  609  cat fixlog2.log
+  610  cat fixlog2.log | grep -i "fill'
+  611  cat fixlog2.log | grep  "fill'
+  612  cat fixlog2.log | grep "fill'
+  613  cat fixlog2.log | grep "FILL'
+  614  grep 35=8 fixlog2.log
+  615  grep 35=8 fixlog2.log | grep -v 32=0
+  616  grep 35=8 fixlog2.log | grep -v 32=0 > fills.log
+  617  grep 39-4 fixlog2.log > cancels.log
+  618  ls
+  619  rm cancels.log 
+  620  ls
+  621  grep 39=4 fixlog2.log > cancels.log
+  622  grep 39=1 fills.log > partialFills.log
+  623  cat partialFills.log 
+  624  awk '{print $7, $9, $13, $10, $10, $15, $16}' fixlog2.log > parsedPartialFills.log
+  625  cat parsedPartialFills.log 
+  626  ls
+  627  rm parsedPartialFills.log 
+  628  awk '{print $7, $9, $13, $10, $10, $15, $16}' partialFills.log > parsedPartialFills.log
+  629  cat parsedPartialFills.log 
+  630  vim parsedPartialFills.log 
+  631  cp parsedPartialFills.log MaryamHashmi.module10.csv
+  632  ls
+  633  cp cancels.log cancels2.log
+  634  vim cancels2.log 
+  635  diff cancels.log cancels2.log 
+  636  history > YYMMDD.module10
