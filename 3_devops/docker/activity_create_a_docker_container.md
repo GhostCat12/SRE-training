@@ -112,3 +112,6 @@ If you encounter an error indicating that port 80 is in use, you can stop any se
         sudo docker ps -a
 7. Verify the dev site works by visiting `http://<YOUR_PUBLIC_IP>:8080` or `http:localhost:8080`.
 
+### Bonus: Using volumes
+
+### Cleaning up
