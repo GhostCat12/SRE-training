@@ -1,10 +1,10 @@
 ## Terraform
 Terraform is Infrastructure as Code (IaC). Main terraform commands : 
-- terraform init: Initializes terraform and confirm the cloud credentials.
-- terraform plan: Print a plan of changes before applying them.
-- terraform apply: Creates or updates computing resources to match the IaC.
-- terraform output: Prints the outputs you specify, such as created resource names or nameservers.
-- terraform destroy: Destroys the resources that it created. To do this, save the generated file after running terraform apply. You can configure saving this in an S3 bucket so that you can destroy and apply updates.
+- **terraform init:** Initializes terraform and confirm the cloud credentials.
+- **terraform plan:** Print a plan of changes before applying them.
+- **terraform apply:** Creates or updates computing resources to match the IaC.
+- **terraform output:** Prints the outputs you specify, such as created resource names or nameservers.
+- **terraform destroy:** Destroys the resources that it created. To do this, save the generated file after running terraform apply. You can configure saving this in an S3 bucket so that you can destroy and apply updates.
 
 ## Activity
 
